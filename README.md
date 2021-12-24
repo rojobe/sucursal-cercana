@@ -58,6 +58,10 @@ Se utilizo una base de datos SQL embebida que provee Spring Boot la cual una vez
 en la siguiente URL: http://localhost:8090/h2-console.
 La consola de login al iniciar la base de datos debe verse como la siguiente imagen:
 
+![configuracion bd](https://github.com/rojobe/sucursal-cercana/blob/master/src/main/resources/h2_console_working_values.png)
+
+Seleccionar connect para acceder a la base de datos.
+
 Los datos son generados a través de un archivo con nombre data.sql guardado bajo la carpeta resources. Cada vez que se inicia la aplicación la base de datos, 
 la tabla y los datos son recreados.
 
