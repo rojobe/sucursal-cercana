@@ -31,7 +31,7 @@
   ```
   http://localhost:8090/sucursales/-32.890399/-68.839576
   ```
-  ##### Response:
+  ###### Response:
   ```
   {"id":1001,"direccion":"San Martin 1162","latitud":-32.889577,"longitud":-68.839284}
   ```
@@ -48,7 +48,7 @@
    }
     
   ```
-  ##### Response:
+  ###### Response:
   ```
   Status: 201 Created
   ```
