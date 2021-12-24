@@ -50,7 +50,15 @@ public class SucursalController {
         return sucursal;
     }
 
-
+    /**
+     * Direcciones de prueba
+     * dirección cerca de sucursal calle san martin http://localhost:8090/sucursales/-32.890399/-68.839576dirección 
+     * dirección cerca de sucursal shopping http://localhost:8090/sucursales/-32.906196/-68.797704dirección 
+     * direcciṕn cerca de sucursal calle españa http://localhost:8090/sucursales/-32.885650/-68.841594
+     * @param latitud
+     * @param longitud
+     * @return
+     */
     @GetMapping("/sucursales/{latitud}/{longitud}")
     public Sucursal obtenerSucursalCercana(@NotNull @PathVariable double latitud,@NotNull @PathVariable double longitud){
         System.out.println("Entering retrieveNearestSucursal GET /sucursales/{latitud}/{longitud}");
