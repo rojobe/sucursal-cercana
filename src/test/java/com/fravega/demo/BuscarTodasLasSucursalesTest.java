@@ -19,6 +19,9 @@ class BuscarTodasLasSucursalesTest {
     @Autowired
     private SucursalController controller;
 
+	/**
+	 * Prueba positiva de la búsqueda de todas las sucursales que se esperan obtene
+	 */
 	@Test
 	public void sizeOfList(){
 		List<Sucursal> sucursales = controller.obtenerTodasLasSucursales();

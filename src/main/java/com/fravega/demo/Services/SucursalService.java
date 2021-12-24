@@ -16,7 +16,7 @@ public class SucursalService {
 
     
     public Sucursal obtenerSucursalMasCercana(double latitud ,double longitud){
-        System.out.println("Entering retrieveNearesSucursal GET /sucursales/{latitud}/{longitud}");
+        System.out.println("Entering obtenerSucursalMasCercana GET /sucursales/{latitud}/{longitud}");
         Sucursal nearestSucursal = new Sucursal();
         double distanceToPoint = 0;
         List<Sucursal> sucursales = sucursalRepository.findAll();
@@ -37,7 +37,14 @@ public class SucursalService {
        return nearestSucursal;
     }
 
-
+    /**
+     * Método encargado de calcular la distancia desde un punto dado (latitud, longitud)
+     * a una sucursal
+     * @param sucursal
+     * @param latitud
+     * @param longitud
+     * @return
+     */
     public double dist(Sucursal sucursal, double latitud, double longitud){
 
         final int R = 6371; // Radius of the earth

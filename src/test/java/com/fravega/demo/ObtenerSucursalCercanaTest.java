@@ -15,6 +15,9 @@ class ObtenerSucursalCercanaTest {
     @Autowired
     private SucursalController controller;
 
+    /**
+     * Prueba positiva de la obtención de la sucursal más cercana
+     */
     @Test
     public void obtenerSucursalMasCercana(){
 
