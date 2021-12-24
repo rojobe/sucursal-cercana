@@ -1,6 +1,6 @@
 ## El presente repositorio presenta una solución a la necesidad de obtener la sucursal más cercana dado una ubicación (latitud y longitud)
 
-### La API propuesta se construyó utilizando el framework Spring Boot y provee 4 servicios 
+### La API propuesta se construyó utilizando el framework Spring Boot v2.6.2 y provee 4 servicios 
 
   ##### Obtencioń de todas las sucursales guardadas en la base de datos
   
@@ -72,12 +72,13 @@ URL: http://localhost:8090/swagger-ui/. Además de la documentación de la API, 
 
 ### Ejecución de la aplicación
 #### NOTA: Para poder iniciar la aplicación es necesario contar con maven instalado en el sistema
+#### NOTA1: Para poder iniciar la aplicación es necesario contar con una versión de Java mayor o igual a Java 11
 
 1. Iniciar una terminal
 1. Clonar el presente repositorio
-1. Navegar hasta la carpeta raiz, en este caso es la carpeta demo
+1. Navegar hasta la carpeta raiz
 1. Ejecutar el siguiente código:  ``` mvn package ```. Esto realizará las acciones necesarias para generar un build de la aplicación el cual tendrá un nombre similar a **demo-0.0.1-SNAPSHOT.jar**
-1. Navegar a la carpeta target y ejecutar el siguiente código ``` java -jar demo-0.0.1-SNAPSHOT.jar ```.
+1. Navegar a la carpeta target (recientemente creada) y ejecutar el siguiente código ``` java -jar demo-0.0.1-SNAPSHOT.jar ```.
 1. Si la ejecución fue correcta al final deberemos leer una sentencia igual a: _Completed initialization in 1 ms_
 1. A través de un navegador ya podemos comenzar a utilizar los servicios propuestos anteriormente utilizando la URL: http://localhost:8090/sucursales/
 
