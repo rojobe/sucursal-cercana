@@ -68,7 +68,7 @@ la tabla y los datos son recreados.
 
 ### Documentación utilizando Swagger-ui
 Para documentar la API se utilizó Swagger, una vez iniciada la aplicación esta documentación puede ser accedida a través de una navegador web en la siguiente 
-URL: http://localhost:8090/swagger-ui/. Además de la documentación de la API, también nos muestra la información del schema de datos.
+URL: http://localhost:8090/swagger-ui.html/. Además de la documentación de la API, también nos muestra la información del schema de datos.
 
 ### Ejecución de la aplicación
 #### NOTA: Para poder iniciar la aplicación es necesario contar con maven instalado en el sistema
