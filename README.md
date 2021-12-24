@@ -56,8 +56,11 @@
 ### Base de Datos
 Se utilizo una base de datos SQL embebida que provee Spring Boot la cual una vez iniciada la aplicación puede ser accedida a través de una navegador web 
 en la siguiente URL: http://localhost:8090/h2-console.
+La consola de login al iniciar la base de datos debe verse como la siguiente imagen:
+
 Los datos son generados a través de un archivo con nombre data.sql guardado bajo la carpeta resources. Cada vez que se inicia la aplicación la base de datos, 
 la tabla y los datos son recreados.
+
 
 ### Documentación utilizando Swagger-ui
 Para documentar la API se utilizó Swagger, una vez iniciada la aplicación esta documentación puede ser accedida a través de una navegador web en la siguiente 
